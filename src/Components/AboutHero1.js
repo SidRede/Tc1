@@ -21,7 +21,7 @@ const AboutHero1 = () => {
           <div className={styles.weAreHere}>
             <p>
               We are here to serve the finest quality food and elevate your
-              guests' experience. We take care of every detail, so you can focus
+              guest&#39; experience. We take care of every detail, so you can focus
               on enjoying your special occasion. Leave the food-related worries to us!!
             </p>
           </div>
@@ -55,7 +55,7 @@ const AboutHero1 = () => {
           <div className={styles.weAreHere}>
             <p>
               We are here to serve the finest quality food and elevate your
-              guests' experience. We take care of every detail, so you can focus
+              guests&#39; experience. We take care of every detail, so you can focus
               on enjoying your special occasion. Leave the food-related worries to us!!
             </p>
           </div>
