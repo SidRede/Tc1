@@ -1,11 +1,15 @@
 import React from 'react';
+import Image from 'next/image';
+
 import styles from '../Styles/AboutHero1.module.css'; // ✅ Already using CSS Module
 
 const AboutHero1 = () => {
   return (
     <>
       <div className={styles.fullscreenBg}>
-        <img
+        <Image
+        width={1024}
+        height={297}
           className={styles.largeImage}
           src="/Images/image-large.jpg"
           alt="Background"
