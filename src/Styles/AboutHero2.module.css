@@ -1,0 +1,130 @@
+.aboutHero2 {
+  padding: 2rem 1rem;
+}
+
+.experience {
+  margin: 10vh 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+}
+
+.box1 {
+  flex: 1 1 150px;
+}
+
+.box1 h1 {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 70px;
+  font-style: normal;
+  color: #672223a7;
+}
+
+.box1 h4 {
+  text-align: center;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.816);
+}
+
+.founderInfo {
+  display: flex;
+  justify-content: space-around;
+  width: 70vw;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.founderImage img {
+  width: 80vw;
+  height: auto;
+}
+
+.founderText {
+  margin: 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.founderText h3 {
+  font-family: "Marko One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.735);
+}
+
+.founderText h1 {
+  font-family: "Petemoss", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.founderText p {
+  width: 90vw;
+}
+
+.news {
+  width: 97vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Tablet and above */
+@media screen and (min-width: 768px) {
+  .experience {
+    flex-wrap: nowrap;
+  }
+
+  .founderInfo {
+    flex-direction: row;
+    text-align: left;
+    align-items: flex-start;
+    width: 90vw;
+  }
+
+  .founderImage img {
+    width: 20vw;
+    height: 60vh;
+  }
+
+  .founderText {
+    align-items: flex-start;
+    margin-left: 2vw;
+  }
+
+  .founderText p {
+    width: 30vw;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .box1 h1 {
+    font-size: 70px;
+  }
+
+  .box1 h4 {
+    font-size: 20px;
+  }
+
+  .founderText h1 {
+    font-size: 50px;
+  }
+
+  .founderText h3 {
+    font-size: 20px;
+  }
+}

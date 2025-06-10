@@ -1,0 +1,130 @@
+/* Reset (optional)
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*/
+
+.NavBar {
+  width: 100vw;
+  background-color: black;
+  border-bottom: 1px solid #D19B38;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: relative;
+  z-index: 1000;
+  animation: fadeDown 0.8s ease-in;
+}
+
+.logo img {
+  padding-left: 5vw;
+  height: 60px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+  transform: scale(1.05);
+}
+
+.navlinks {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  transition: all 0.4s ease;
+}
+
+.navlinks a {
+  color: #D19B38;
+  text-decoration: none;
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 300;
+  position: relative;
+  opacity: 0;
+  animation: fadeInLinks 0.6s ease forwards;
+}
+
+.navlinks a:nth-child(1) { animation-delay: 0.2s; }
+.navlinks a:nth-child(2) { animation-delay: 0.3s; }
+.navlinks a:nth-child(3) { animation-delay: 0.4s; }
+.navlinks a:nth-child(4) { animation-delay: 0.5s; }
+.navlinks a:nth-child(5) { animation-delay: 0.6s; }
+
+.navlinks a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #D19B38;
+  transition: 0.3s ease;
+}
+
+.navlinks a:hover::after {
+  width: 100%;
+}
+
+/* Hamburger icon hidden by default */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+/* Responsive - Mobile View */
+@media (max-width: 768px) {
+  .navlinks {
+    display: none;
+    flex-direction: column;
+    background-color: black;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+  }
+
+  .navlinks.active {
+    display: flex;
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .navlinks a {
+    opacity: 1;
+    animation: none;
+    font-size: 15px;
+    padding: 10px 0;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+/* Animations */
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLinks {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

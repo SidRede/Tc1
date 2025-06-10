@@ -1,0 +1,44 @@
+.menuImg {
+  margin: 10px auto;
+  height: 100%;
+  width: 80vw;
+  border: 1px solid black;
+  display: block;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+/* Animation Keyframes */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Default: Mobile First (Show Img22, Hide Img12) */
+.Img12 {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.Img22 {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+/* Desktop: Show Img12, Hide Img22 */
+@media screen and (min-width: 768px) {
+  .Img12 {
+    display: block;
+    opacity: 1;
+  }
+
+  .Img22 {
+    display: none;
+    opacity: 0;
+  }
+}

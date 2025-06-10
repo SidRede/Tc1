@@ -1,0 +1,119 @@
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    height: auto;
+    padding: 2rem 1rem;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.lets-Connect {
+    margin-top: 5vh;
+    margin-bottom: 0;
+    height: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.lets-Connect h1 {
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    color: #2c2c2c;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 30% 0 30% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.box:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    background-color: #f0f0f0;
+}
+
+.box img {
+    height: 50px;
+    width: 50px;
+    transition: transform 0.3s ease;
+}
+
+.box:hover img {
+    transform: rotate(10deg) scale(1.1);
+}
+
+.box h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #2c2c2cf2;
+    transition: color 0.3s ease;
+}
+
+.box:hover h3 {
+    color: #0a7c59;
+}
+
+/* Keyframes for fade animations */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 767px) {
+    .boxes {
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .box {
+        width: 30vw;
+        height: 120px;
+    }
+
+    .box img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .lets-Connect h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+}

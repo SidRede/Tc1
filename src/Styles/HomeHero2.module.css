@@ -1,0 +1,119 @@
+
+  .hero2 {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .Img1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 33px;
+  }
+  
+  .rect1 {
+    width: auto;
+    height: 40vh;
+  }
+  
+  .frameContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .frame {
+    padding: 10px;
+    border: 5px solid black;
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .datta {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80vh;  /* Adjusted for full screen */
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.7; /* Adjust opacity for visibility */
+    z-index: 10;
+  }
+  
+  .frame h3 {
+    margin-top: 5vh;
+    font-size: 27px;
+    letter-spacing: 7px;
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    color: #6D3A3A;
+    z-index: 2;
+  }
+  
+  .frame p {
+    text-align: center;
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 27px;
+    line-height: 27px;
+    color: black;
+    z-index: 2;
+  }
+  
+  /* -------------- Responsive: Mobile & Tablets -------------- */
+  @media (max-width: 768px) {
+    .Img1 {
+      display: none; /* Hide side images on small screens */
+    }
+  
+    .hero2 {
+      flex-direction: column;
+      margin: 5vh 20px;
+    }
+  
+    .frame {
+        width: 92vw;
+        padding: 20px;
+        position: relative;
+        background-color: #fff;
+        z-index: 2;
+        overflow: hidden; /* This hides overflow */
+      }
+      
+      .datta {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;       /* Ensure it covers the frame */
+        height: 100%;      /* Stretch to fit the frame height */
+        object-fit: cover;
+        opacity: 0.9;      /* Adjust as needed for background effect */
+        z-index: 10;        /* Behind text */
+      }
+      
+  
+    .frame h3 {
+      font-size: 22px;
+      text-align: center;
+    }
+  
+    .frame p {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  

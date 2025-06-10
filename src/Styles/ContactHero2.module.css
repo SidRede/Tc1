@@ -1,0 +1,214 @@
+.Contact-Hero2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7vh;
+  padding: 2rem 1rem;
+}
+
+.contact-form {
+  width: 70vw;
+  display: flex;
+  border-radius: 4rem;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.contact-image {
+  border-radius: 5%;
+  width: 45%;
+  height: 80vh;
+}
+
+.contact-image img {
+  border-radius: 4rem 0 0 4rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.c-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+  background-color: #224a47df;
+  width: 55%;
+  border-radius: 0 4rem 4rem 0;
+  padding: 2rem 1rem;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 65vh;
+  font-family: "Marko One", serif;
+  font-weight: 200;
+  font-style: normal;
+  color: aliceblue;
+  letter-spacing: 1px;
+}
+
+.inputField {
+  height: 2rem;
+  padding-left: 20px;
+  border-radius: 5rem;
+  width: 25vw;
+  font-family: "Marko One", serif;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 100%;
+}
+
+.textAreaField {
+  height: 15vh;
+  border-radius: 2rem;
+  vertical-align: top;
+  padding-left: 20px;
+  padding-top: 7px;
+  width: 25vw;
+  font-family: "Marko One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.f-l-name {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+
+.fname,
+.lname {
+  width: 11.75vw;
+  max-width: 100%;
+}
+
+.c-message {
+  height: 15vh;
+  border-radius: 2rem;
+  vertical-align: top;
+  padding-left: 20px;
+  padding-top: 7px;
+  width: 25vw;
+  font-family: "Marko One", serif;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 100%;
+}
+
+.submit {
+  background-color: #02ff3d;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: "Marko One", serif;
+  color: #000;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #00cc30;
+}
+
+/* Mobile-first base styles */
+@media screen and (max-width: 767px) {
+  .contact-form {
+    flex-direction: column;
+    width: 90vw;
+    border-radius: 2rem;
+  }
+
+  .contact-image {
+    display: none;
+  }
+
+  .c-form {
+    width: 100%;
+    border-radius: 0 0 2rem 2rem;
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .inputField,
+  .textAreaField {
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  .f-l-name {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .fname,
+  .lname {
+    width: 100% !important;
+  }
+}
+
+/* Tablet and up */
+@media screen and (min-width: 768px) {
+  .contact-form {
+    flex-direction: row;
+    width: 80vw;
+  }
+
+  .contact-image {
+    width: 45%;
+    height: 80vh;
+  }
+
+  .contact-image img {
+    border-radius: 4rem 0 0 4rem;
+  }
+
+  .c-form {
+    width: 55%;
+    height: 80vh;
+    border-radius: 0 4rem 4rem 0;
+  }
+
+  .contactForm {
+    height: 65vh;
+  }
+
+  .f-l-name {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .fname,
+  .lname {
+    width: 48% !important;
+  }
+
+  .inputField,
+  .c-message {
+    width: 90%;
+  }
+}
+
+/* Desktop (optional refinements) */
+@media screen and (min-width: 1024px) {
+  .contact-form {
+    width: 70vw;
+  }
+
+  .inputField,
+  .c-message {
+    width: 25vw;
+  }
+
+  .fname,
+  .lname {
+    width: 11vw !important;
+  }
+}

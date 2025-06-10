@@ -1,0 +1,139 @@
+.menuHero {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 12vh;
+  padding-bottom: 5vh;
+  position: relative;
+  width: 99vw;
+  min-height: 87vh;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.thali {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.thali img {
+  width: 80%;
+  max-width: 400px;
+  height: auto;
+}
+
+.marathi {
+  padding: 20px;
+  text-align: center;
+  z-index: 2;
+}
+
+.marathi p {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.2vw;
+  color: #D19B38;
+  line-height: 1.6;
+}
+
+.ellipse,
+.ellipse1,
+.ellipse2 {
+  position: absolute;
+  z-index: 1;
+}
+
+.ellipse {
+  top: -10vh;
+  left: 0;
+  width: 100px;
+}
+
+.ellipse1 {
+  top: 5vh;
+  right: 15vw;
+  width: 80px;
+}
+
+.ellipse2 {
+  bottom: -14vh;
+  right: 35vw;
+  width: 80px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .menuHero {
+    flex-direction: column;
+    padding-top: 6vh;
+    padding-bottom: 3vh;
+  }
+
+  .marathi p {
+    font-size: 4vw;
+    margin: 0 auto;
+  }
+
+  .thali img {
+    width: 90%;
+    max-height: 40vh;
+  }
+
+  .ellipse,
+  .ellipse1,
+  .ellipse2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .marathi p {
+    font-size: 4.5vw;
+  }
+
+  .thali img {
+    width: 95%;
+  }
+}
+
+/* Keyframes */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Apply animations */
+.ellipse,
+.ellipse1,
+.ellipse2 {
+  animation: float 4s ease-in-out infinite;
+}
+
+.thali img {
+  animation: zoomIn 1.2s ease-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.thali img:hover {
+  transform: scale(1.05);
+}

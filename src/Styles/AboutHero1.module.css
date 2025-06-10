@@ -1,0 +1,162 @@
+
+.fullscreenBg {
+  position: relative;
+  height: 87vh;
+  width: 99vw;
+  overflow: hidden;
+}
+
+.largeImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.overlayText {
+  position: absolute;
+  width: 80vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+  padding: 0 1rem;
+}
+
+.quality h2 {
+  color: rgba(0, 0, 0, 0.65);
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+
+.tc1 h1 {
+  letter-spacing: 5px;
+  font-size: 4.5rem;
+  font-family: "Metal Mania", system-ui;
+  color: #D19B38;
+  margin: 1rem 0;
+}
+
+.weAreHere p {
+  padding: 0 1vw;
+  font-family: "Mooli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.67);
+  font-size: 1rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.smallscreenBg {
+  display: none;
+}
+
+.whatsappHelpButton {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 5;
+}
+
+.whatsappHelpButton {
+      position: fixed;
+    bottom: 42px;
+    right: 6px;
+
+  background-color: #25D366;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.blurWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.blurr1, .blurr2, .blurr3, .blurr4 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+/* ✅ Responsive Styling */
+@media (max-width: 768px) {
+  .fullscreenBg {
+    display: none;
+  }
+
+  .smallscreenBg {
+    display: flex;
+    height: 80vh;
+    background-color: #000000;
+    position: relative;
+  }
+
+  .smallImage {
+    position: absolute;
+    height: auto;
+    width: 25vw;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+  }
+
+  .overlayText {
+    position: absolute;
+    width: 80vw;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    padding: 0 1rem;
+  }
+
+  .tc1 h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    margin: 0;
+  }
+
+  .quality h2 {
+    color: rgb(255, 255, 255);
+    font-size: 0.6rem;
+  }
+
+  .weAreHere p {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.773);
+  }
+
+  .largeImage {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .tc1 h1 {
+    font-size: 2.24rem;
+  }
+
+  .quality h2 {
+    font-size: 0.8rem;
+  }
+
+  .weAreHere p {
+    font-size: 0.8rem;
+  }
+}

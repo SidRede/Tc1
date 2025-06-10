@@ -1,0 +1,150 @@
+.footer {
+  background-color: #000000;
+  width: 100vw;
+  position: relative;
+  padding-bottom: 2vh;
+}
+
+.footerMain {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 5vh;
+  gap: 2rem;
+}
+
+.getInTouch {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  min-width: 250px;
+}
+
+.getInTouch p {
+  font-family: "Kotta One", serif;
+  font-weight: 400;
+  color: #D19B38;
+}
+
+.links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+  font-family: "Kotta One", serif;
+  font-weight: 400;
+  color: #D19B38;
+  padding-left: 0;
+}
+
+.links ul li a {
+  color: #D19B38;
+  text-decoration: none;
+}
+
+.mail,
+.call,
+.site {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.mail img,
+.call img,
+.site img {
+  height: 20px;
+  width: 20px;
+}
+
+.site img {
+  height: 25px;
+  width: 25px;
+}
+
+.map iframe {
+  border: none;
+  width: 300px;
+  height: 200px;
+}
+
+.copyCredit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5vw 0;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.copy p,
+.credit p {
+  font-family: "Kotta One", serif;
+  font-weight: 400;
+  color: #D19B38;
+  text-align: center;
+}
+
+.gold img {
+  position: absolute;
+  height: 250px;
+  width: auto;
+  left: 0;
+  top: 4%;
+}
+.gold1 img {
+  rotate: 180deg;
+  position: absolute;
+  height: 250px;
+  width: auto;
+  right: 0;
+  top: 4%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footerMain {
+    flex-direction: column;
+    align-items: center;
+    padding: 8vh 2vw;
+  }
+
+  .footer {
+    padding-bottom: 4vh;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .map iframe {
+    width: 90vw;
+    height: 150px;
+  }
+
+  .getInTouch p,
+  .copy p,
+  .credit p {
+    font-size: 14px;
+  }
+
+  .copyCredit {
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px 0;
+  }
+
+  .gold img {
+    height: 20vh;
+    top: 5%;
+   
+    opacity: 0.6;
+  }
+  .gold1 img {
+    rotate: 180deg;
+    height: 20vh;
+    right: 0;
+    top: 5%;
+    opacity: 0.6;
+  }
+}
