@@ -1,33 +1,52 @@
 import React from 'react';
 import styles from '../Styles/Menu2.module.css';
+import Image from 'next/image';
 
 const MenuHero2 = () => {
   return (
     <div>
       <div className={styles.Img12}>
-        <img
+        <Image
           src="/Images/Menu1.png"
           alt=""
           className={styles.menuImg}
           style={{ animationDelay: '0s' }}
+          width={300}
+          height={300}
         />
-        <img
+        <Image
           src="/Images/Menu2.png"
           alt=""
           className={styles.menuImg}
           style={{ animationDelay: '0.2s' }}
+          width={300}
+          height={300}
         />
-        <img
+        <Image
           src="/Images/Menu3.png"
           alt=""
           className={styles.menuImg}
           style={{ animationDelay: '0.4s' }}
+          width={300}
+          height={300}
         />
       </div>
 
       <div className={styles.Img22}>
-        <img src="/Images/Menu4.png" alt="" className={styles.menuImg} />
-        <img src="/Images/Menu5.png" alt="" className={styles.menuImg} />
+        <Image
+          src="/Images/Menu4.png"
+          alt=""
+          className={styles.menuImg}
+          width={300}
+          height={300}
+        />
+        <Image
+          src="/Images/Menu5.png"
+          alt=""
+          className={styles.menuImg}
+          width={300}
+          height={300}
+        />
       </div>
     </div>
   );

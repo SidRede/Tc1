@@ -2,6 +2,8 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import style from '../Styles/ContactHero2.module.css';
+import Image from 'next/image';
+
 
 const ContactHero2 = () => {
   const [name, setName] = useState('');
@@ -47,7 +49,13 @@ const ContactHero2 = () => {
     <div className={style['Contact-Hero2']}>
       <div className={style['contact-form']}>
         <div className={style['contact-image']}>
-          <img src="/Images/contactUs.png" alt="Contact Us" />
+         <Image
+            src="/Images/contactUs.png"
+            alt="Contact Us"
+            width={200} // Adjust width as needed
+            height={100} // Adjust height as needed
+          />
+
         </div>
 
         <div className={style['c-form']}>

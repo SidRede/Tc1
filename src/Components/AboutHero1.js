@@ -43,11 +43,14 @@ const AboutHero1 = () => {
       </div>
 
       <div className={styles.smallscreenBg}>
-        <img
+        <Image
           className={styles.smallImage}
           src="/Images/Image-small.png"
           alt="Background"
+          width={300} // adjust based on actual size
+          height={200} // adjust based on actual size
         />
+
 
         <div className={styles.overlayText}>
           <div className={styles.quality}>
@@ -66,10 +69,13 @@ const AboutHero1 = () => {
         </div>
 
         <div className={styles.blurWrapper}>
-          <img className={styles.blurr1} src="/Images/layerBlur1.png" alt="blur" />
-          <img className={styles.blurr2} src="/Images/layerBlur2.png" alt="blur" />
-          <img className={styles.blurr3} src="/Images/layerBlur3.png" alt="blur" />
-          <img className={styles.blurr4} src="/Images/layerBlur4.png" alt="blur" />
+         <div className={styles.blurWrapper}>
+          <Image className={styles.blurr1} src="/Images/layerBlur1.png" alt="blur" width={362} height={459} />
+          <Image className={styles.blurr2} src="/Images/LayerBlur2.png" alt="blur" width={242} height={276} />
+          <Image className={styles.blurr3} src="/Images/LayerBlur3.png" alt="blur" width={480} height={372} />
+          <Image className={styles.blurr4} src="/Images/LayerBlur4.png" alt="blur" width={403} height={332} />
+         </div>
+
         </div>
 
         <div className={styles.whatsappHelpButton}>

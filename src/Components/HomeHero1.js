@@ -1,30 +1,77 @@
 import React from 'react';
 import styles from '../Styles/HomeHero1.module.css';
+import Image from 'next/image';
 
 const HomeHero1 = () => {
   return (
     <>
       <section className={styles.hero}>
-        <img className={styles.fire} src="/Images/blackFire.png" alt="Fire decoration" />
+        <Image
+          className={styles.fire}
+          src="/Images/blackFire.png"
+          alt="Fire decoration"
+          width={100}
+          height={100}
+        />
 
         <div className={styles.MainText}>
           <h3 className={styles.discover}>Discover</h3>
           <h1 className={styles.tc}>TRIMURTI CATERERS</h1>
-          <h4 className={styles.tagLine}>CELEBRATE LIFE . . LIVE FOR TODAY . . ENJOY THE MOMENY . . !!!</h4>
-          <img className={styles.lines} src="/Images/Group84.png" alt="Separator lines" />
+          <h4 className={styles.tagLine}>
+            CELEBRATE LIFE . . LIVE FOR TODAY . . ENJOY THE MOMENY . . !!!
+          </h4>
+
+          <Image
+            className={styles.lines}
+            src="/Images/Group84.png"
+            alt="Separator lines"
+            width={200}
+            height={20}
+          />
+
           <p className={styles.address}>
             Behind Indraprastha lawns, Near Grapes Research Center,<br />
             Loni Toll Plaza, Manjari, Pune - 412307.
           </p>
         </div>
 
-        <img className={styles.chineseDish} src="/Images/chineseDish.png" alt="Chinese dish for a catering Event" />
+        <Image
+          className={styles.chineseDish}
+          src="/Images/chineseDish.png"
+          alt="Chinese dish for a catering Event"
+          width={500}
+          height={500}
+        />
 
         <div className={styles.blurWrapper}>
-          <img className={styles.blurr1} src="/Images/layerBlur1.png" alt="blur" />
-          <img className={styles.blurr2} src="/Images/LayerBlur2.png" alt="blur" />
-          <img className={styles.blurr3} src="/Images/LayerBlur3.png" alt="blur" />
-          <img className={styles.blurr4} src="/Images/LayerBlur4.png" alt="blur" />
+          <Image
+            className={styles.blurr1}
+            src="/Images/layerBlur1.png"
+            alt="blur"
+            width={362}
+            height={459}
+          />
+          <Image
+            className={styles.blurr2}
+            src="/Images/LayerBlur2.png"
+            alt="blur"
+            width={242}
+            height={276}
+          />
+          <Image
+            className={styles.blurr3}
+            src="/Images/LayerBlur3.png"
+            alt="blur"
+            width={480}
+            height={372}
+          />
+          <Image
+            className={styles.blurr4}
+            src="/Images/LayerBlur4.png"
+            alt="blur"
+            width={403}
+            height={332}
+          />
         </div>
       </section>
 

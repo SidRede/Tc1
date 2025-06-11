@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from '../Styles/ContactHero1.module.css'
+import Image from 'next/image';
+
 
 const ContactHero1 = () => {
   return (
@@ -11,7 +13,13 @@ const ContactHero1 = () => {
         <div className={styles.boxes}>
           <a href="tel:+919697982020">
             <div className={styles.box}>
-              <img src="/Images/call1.png" alt="Call Icon" />
+              <Image
+                src="/Images/call1.png"
+                alt="Call Icon"
+                width={24} // Adjust based on actual icon size
+                height={24}
+              />
+
               <h3>Phone</h3>
             </div>
           </a>
@@ -22,14 +30,26 @@ const ContactHero1 = () => {
             rel="noopener noreferrer"
           >
             <div className={styles.box}>
-              <img src="/Images/insta1.png" alt="Instagram" />
+              <Image
+                src="/Images/insta1.png"
+                alt="Instagram"
+                width={24} // Adjust based on actual size or design
+                height={24}
+              />
+
               <h3>Instagram</h3>
             </div>
           </a>
 
           <a href="https://wa.me/919697982020" target="_blank" rel="noopener noreferrer">
             <div className={styles.box}>
-              <img src="/Images/whatsApp1.png" alt="WhatsApp Icon" />
+              <Image
+                src="/Images/whatsApp1.png"
+                alt="WhatsApp Icon"
+                width={24} // Adjust as needed
+                height={24}
+              />
+
               <h3>Whatsapp</h3>
             </div>
           </a>

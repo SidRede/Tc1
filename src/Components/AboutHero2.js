@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../Styles/AboutHero2.module.css';
+import Image from 'next/image';
 
 const AboutHero2 = () => {
   return (
@@ -34,7 +35,13 @@ const AboutHero2 = () => {
       <div>
         <div className={styles.founderInfo}>
           <div className={styles.founderImage}>
-            <img src="/Images/founder.png" alt="Founder of Trimurti Caterers" />
+              <Image
+                src="/Images/founder.png"
+                alt="Founder of Trimurti Caterers"
+                width={300} // Adjust based on actual image dimensions
+                height={300}
+              />
+
           </div>
 
           <div className={styles.founderText}>

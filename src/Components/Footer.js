@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from '../Styles/footer.module.css';
+import Image from 'next/image';
+
 
 const Footer = () => {
   return (
@@ -11,15 +13,33 @@ const Footer = () => {
             <p>Get In Touch</p>
           </div>
           <div className={styles.mail}>
-            <img src="/Images/email.png" alt="email icon" />
+            <Image
+              src="/Images/email.png"
+              alt="email icon"
+              width={24}
+              height={24}
+            />
+
             <p>sachin.trimurti@gmail.com</p>
           </div>
           <div className={styles.call}>
-            <img src="/Images/call.png" alt="call icon" />
+            <Image
+              src="/Images/call.png"
+              alt="call icon"
+              width={24}
+              height={24}
+            />
+
             <p>9822662826 / 7330212020</p>
           </div>
           <div className={styles.site}>
-            <img src="/Images/web.png" alt="website icon" />
+            <Image
+              src="/Images/web.png"
+              alt="website icon"
+              width={24}
+              height={24}
+            />
+
             <p>www.trimurticaterers.in</p>
           </div>
         </div>
@@ -58,10 +78,21 @@ const Footer = () => {
       </div>
 
       <div className={styles.gold}>
-        <img src="/Images/sideGold.png" alt="Decorative Gold Element" />
+        <Image
+          src="/Images/sideGold.png"
+          alt="Decorative Gold Element"
+          width={100} // Adjust as per your layout
+          height={100}
+        />
+
       </div>
         <div className={styles.gold1}>
-        <img src="/Images/sideGold.png" alt="Decorative Gold Element" />
+        <Image
+          src="/Images/sideGold.png"
+          alt="Decorative Gold Element"
+          width={100}
+          height={100}
+        />
       </div>
     </div>
   );
