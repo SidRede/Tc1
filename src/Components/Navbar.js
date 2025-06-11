@@ -19,7 +19,14 @@ const Navbar = () => {
   return (
     <nav className={styles.NavBar}>
       <div className={styles.logo}>
-        <Image src="/Images/logo.png" alt="Logo" width={120} height={60} />
+       <Image
+          src="/Images/logo.png"
+          alt="Logo"
+          width={120}
+          height={60}
+          style={{ width: "150px", height: "auto" }}
+        />
+
       </div>
 
       <div

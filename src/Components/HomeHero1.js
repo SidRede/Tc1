@@ -51,13 +51,13 @@ const HomeHero1 = () => {
             width={362}
             height={459}
           />
-          <Image
+         { /*<Image
             className={styles.blurr2}
             src="/Images/LayerBlur2.png"
             alt="blur"
             width={242}
             height={276}
-          />
+          />*/}
           <Image
             className={styles.blurr3}
             src="/Images/LayerBlur3.png"
