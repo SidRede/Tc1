@@ -1,7 +1,7 @@
 import './globals.css';
 import Navbar from '../Components/Navbar'; // adjust if path differs
 import Footer from '../Components/Footer'; // ✅ import Footer
-
+import Script from 'next/script';
 // app/layout.js
 export const metadata = {
   title: 'Trimurti Caterers | Best Event Catering in Pune & PCMC',
@@ -66,7 +66,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossOrigin="anonymous"></link>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossOrigin="anonymous"></script>
+        {/* <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossOrigin="anonymous"></script> */}
          <meta name="google-site-verification" content="jJYaBHl3YqWI79xX-ewl1wRWYLTJ3NhZh6f1O5Z_PrA" />
 
 
@@ -172,6 +172,13 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Footer /> {/* ✅ Footer at bottom of every page */}
+
+          <Script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
