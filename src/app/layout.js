@@ -4,13 +4,20 @@ import Footer from '../Components/Footer'; // ✅ import Footer
 
 // app/layout.js
 export const metadata = {
-  title: 'Trimurti Caterers | Best Wedding & Event Catering in Pune & PCMC',
-  description: 'Trimurti Caterers offers premium catering services in Pune & PCMC for weddings, corporate events, birthdays, and more. Call +91 9697982020 to plan your event!',
+  title: 'Trimurti Caterers | Best Event Catering in Pune & PCMC',
+  description: 'Trimurti Caterers offers premium catering services in Pune & PCMC for weddings, birthdays, and more. Call +91 9697982020 to plan your event!',
+   icons: {
+    icon: "/favicon.ico",
+  },
   keywords: [
-    'Catering services in Pune',
+    'Best caterers in Pune',
+    'Best caterers in Hadapsar',
+    'Catering services in Pune and PCMC',
+    'Catering services in Hadapsar',
     'Wedding catering in Pune',
     'Birthday party caterers',
     'Buffet catering Pune',
+    'caterering Pune',
     'Corporate catering Pune',
     'Top caterers in Pune',
     'Professional catering services',
@@ -58,7 +65,8 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Kaushan+Script&family=Kings&family=Kotta+One&family=Lobster&family=Marko+One&family=Metal+Mania&family=Mooli&family=Petemoss&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&display=swap"
           rel="stylesheet"
         />
-
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossOrigin="anonymous"></link>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossOrigin="anonymous"></script>
          <meta name="google-site-verification" content="jJYaBHl3YqWI79xX-ewl1wRWYLTJ3NhZh6f1O5Z_PrA" />
 
 
