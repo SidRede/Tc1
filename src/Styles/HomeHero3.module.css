@@ -31,6 +31,22 @@
   font-weight: 400;
 }
 
+
+.reviewTitle{
+      display: flex;
+    margin-top: 5vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: anchor-center;
+    font-family: "Kotta One", serif;
+  }
+  
+  .reviewTitle  h3{
+  font-size: 3rem;
+
+}
+
+
 /* ✅ Responsive Design */
 @media (max-width: 768px) {
   .celebrate {
@@ -54,5 +70,33 @@
 
   .imBcg {
     height: 50vh;
+  }
+}
+
+
+
+.CardCarousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  gap: 1rem;
+  padding: 1rem 2rem; /* ✅ padding around carousel */
+  scrollbar-width: none;
+}
+
+.CardCarousel::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for cleaner look */
+}
+
+.CardCarousel > div {
+ flex: 0 0 calc(33%);
+  scroll-snap-align: start;
+  /*width: 540px; /* matches the card width */
+}
+
+@media (max-width: 768px) {
+  .CardCarousel > div {
+    flex: 0 0 90%;
   }
 }
