@@ -20,7 +20,7 @@ const Navbar = () => {
     <nav className={styles.NavBar}>
       <div className={styles.logo}>
        <Image
-          src="/Images/logo.png"
+          src="/Images/logo.svg"
           alt="Logo"
           width={120}
           height={60}
