@@ -1,3 +1,9 @@
+import Gallery1 from "@/Components/Gallery1"
+
 export default function About() {
-  return <h1>Gallary</h1>;
+  return (
+    <div>
+      <Gallery1/>
+    </div>
+  )
 }
