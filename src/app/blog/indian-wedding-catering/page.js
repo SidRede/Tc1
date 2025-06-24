@@ -25,7 +25,7 @@ export default function IndianWeddingCatering() {
         </p>
 
         <p>
-          Whether you're hosting a royal wedding in a banquet hall or an open-air celebration in Hadapsar, Magarpatta, or Kharadi, our
+          Whether you&rsquo;re hosting a royal wedding in a banquet hall or an open-air celebration in Hadapsar, Magarpatta, or Kharadi, our
           <strong> top-rated wedding catering services</strong> in Pune help create a culinary journey that leaves a lasting impression.
           Here are 10 unique ideas to make your wedding feast unforgettable:
         </p>
@@ -85,7 +85,7 @@ export default function IndianWeddingCatering() {
         </div>
 
         <p>
-          Want to offer your guests a wedding feast they'll rave about? Get in touch with Trimurti Caterers today and let&rsquo;s build a
+          Want to offer your guests a wedding feast they&rsquo;ll rave about? Get in touch with Trimurti Caterers today and let&rsquo;s build a
           <strong> wedding food experience</strong> that reflects your culture, creativity, and culinary taste.
         </p>
 
