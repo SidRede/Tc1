@@ -69,14 +69,14 @@ export default function BirthdayPartyMenu() {
         <p className="text-muted">Published on June 20, 2025</p>
 
          <h2 className="mt-5">📦 Customize with Trimurti Caterers</h2>
-        <p>No two birthday parties are the same — that's why we offer fully customizable catering packages based on your guest list, budget, party theme, and dietary preferences.</p>
+        <p>No two birthday parties are the same — that&rsquo;ss why we offer fully customizable catering packages based on your guest list, budget, party theme, and dietary preferences.</p>
         <p> As one of the <strong>  best caterers in Pune </strong>, especially trusted as the top caterers in Hadapsar, Trimurti Caterers brings tailored food solutions to every event. From intimate home gatherings to lavish birthday garden parties, we ensure your food experience is not just flawless — but unforgettable.</p>
 
        
 
-        <p>Birthdays are one of the most joyous celebrations in life, and the menu plays a key role in creating a memorable party. Whether you're throwing a kids' party, a teenage bash, or a sophisticated adult gathering, the food should be exciting, satisfying, and tailored to your guests' preferences. Here's how Trimurti Caterers helps you craft the perfect birthday party menu for all age groups.</p>
+        <p>Birthdays are one of the most joyous celebrations in life, and the menu plays a key role in creating a memorable party. Whether you&rsquo;sre throwing a kids&rsquo;s party, a teenage bash, or a sophisticated adult gathering, the food should be exciting, satisfying, and tailored to your guests&rsquo;s preferences. Here&rsquo;ss how Trimurti Caterers helps you craft the perfect birthday party menu for all age groups.</p>
 
-        <h2 className="mt-5">🎈 Kids’ Party Menu Ideas</h2>
+        <h2 className="mt-5">🎈 Kids&rsquo;s Party Menu Ideas</h2>
          <Image
           src="/Images/gallery/img2.jpg"
           alt="Birthday Party Catering Setup"
@@ -130,7 +130,7 @@ export default function BirthdayPartyMenu() {
        
 
         <div className="mt-5 alert alert-success">
-          <strong>Plan your next birthday with us!</strong> Contact +91 9697982020 Trimurti Caterers today and let's create magic together.
+          <strong>Plan your next birthday with us!</strong> Contact +91 9697982020 Trimurti Caterers today and let&rsquo;ss create magic together.
         </div>
       </main>
     </>
