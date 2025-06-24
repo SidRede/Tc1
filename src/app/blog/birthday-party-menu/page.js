@@ -74,7 +74,7 @@ export default function BirthdayPartyMenu() {
 
        
 
-        <p>Birthdays are one of the most joyous celebrations in life, and the menu plays a key role in creating a memorable party. Whether you&rsquo;sre throwing a kids&rsquo;s party, a teenage bash, or a sophisticated adult gathering, the food should be exciting, satisfying, and tailored to your guests&rsquo;s preferences. Here&rsquo;ss how Trimurti Caterers helps you craft the perfect birthday party menu for all age groups.</p>
+        <p>Birthdays are one of the most joyous celebrations in life, and the menu plays a key role in creating a memorable party. Whether you are throwing a kids&rsquo;s party, a teenage bash, or a sophisticated adult gathering, the food should be exciting, satisfying, and tailored to your guests&rsquo; preferences. Here&rsquo;s how Trimurti Caterers helps you craft the perfect birthday party menu for all age groups.</p>
 
         <h2 className="mt-5">🎈 Kids&rsquo;s Party Menu Ideas</h2>
          <Image

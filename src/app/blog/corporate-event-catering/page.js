@@ -94,7 +94,7 @@ export default function CorporateEventCatering() {
       
 
         <p>
-            Presentation matters. All our dishes are carefully plated, and our staff is professionally trained in hospitality etiquette to reflect your brand’s image. We believe food should be both visually appealing and delicious.
+            Presentation matters. All our dishes are carefully plated, and our staff is professionally trained in hospitality etiquette to reflect your brand&rsquo;s image. We believe food should be both visually appealing and delicious.
         </p>
 
         <div className="my-4">

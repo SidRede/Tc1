@@ -66,7 +66,7 @@ export default function IndianWeddingCatering() {
         </ul>
 
         <p>
-          At Trimurti Caterers, we don’t just serve food — we create experiences. Our <strong>live food counters</strong>, innovative displays, and 
+          At Trimurti Caterers, we don&rsquo;t just serve food — we create experiences. Our <strong>live food counters</strong>, innovative displays, and 
           <strong>customizable wedding catering packages</strong> are tailored for every type of venue — from Hadapsar lawns to Kharadi banquet halls and Pune heritage resorts.
         </p>
 
@@ -85,7 +85,7 @@ export default function IndianWeddingCatering() {
         </div>
 
         <p>
-          Want to offer your guests a wedding feast they'll rave about? Get in touch with Trimurti Caterers today and let’s build a
+          Want to offer your guests a wedding feast they'll rave about? Get in touch with Trimurti Caterers today and let&rsquo;s build a
           <strong> wedding food experience</strong> that reflects your culture, creativity, and culinary taste.
         </p>
 
