@@ -35,7 +35,8 @@ const Navbar = () => {
         <Link href="/" onClick={closeNavbar}>Home</Link>
         <Link href="/About" onClick={closeNavbar}>About</Link>
         <Link href="/Menu" onClick={closeNavbar}>Menu</Link>
-        <Link href="/Gallary" onClick={closeNavbar}>Gallary</Link>
+        <Link href="/Gallary" onClick={closeNavbar}>Gallery</Link>
+        <Link href="/blog" onClick={closeNavbar}>Blogs</Link>
         <Link href="/Contact" onClick={closeNavbar}>Contact Us</Link>
       </div>
 
