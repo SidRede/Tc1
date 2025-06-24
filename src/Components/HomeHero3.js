@@ -17,7 +17,7 @@ const HomeHero3 = () => {
       city: 'Hadapsar',
       image: '/Images/review1.jpeg',
       review:
-        "Our wedding day was made truly special thanks to the incredible team at Trimurti Caterers. Every dish was full of flavor, and their attention to detail stood out. They really are the best and reputed caterers in Hadapsar .",
+        "Our wedding day was made truly special thanks to the incredible team at Trimurti Caterers. Every dish was full of flavor, and their attention to detail stood out. They really are the best caterers in Hadapsar with a strong reputation.",
     },
     {
       name: 'Amit Verma',
