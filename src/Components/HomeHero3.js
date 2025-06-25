@@ -102,7 +102,7 @@ const HomeHero3 = () => {
             className={styles.lines}
             src="/Images/Group84.png"
             alt="Separator lines"
-            width={500}
+            width={400}
             height={20}
           />
       </div>

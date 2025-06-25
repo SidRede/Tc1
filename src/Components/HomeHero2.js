@@ -26,7 +26,7 @@ const HomeHero2 = () => {
         <div className={styles.frame}>
           <h3>TRIMURTI CATERERS</h3>
           <p>
-           Trimurti Caterers, founded in 2010, is among the <b>top caterers in Pune</b>, offering professional catering services and exquisite culinary experiences for weddings, corporate events, and celebrations. Recognized as one of the <b> best caterers in Pune and Hadapsar</b>, we provide tailored catering services in Pune and PCMC. From wedding, birthday parties to corporate events catering, our passion for flavor and flawless execution makes us a trusted name . For the best in caterering Pune, choose <b> Trimurti !!!</b> </p>
+           Trimurti Caterers, founded in 2005, is among the <b>top caterers in Pune</b>, offering professional catering services and exquisite culinary experiences for weddings, corporate events, and celebrations. Recognized as one of the <b> best caterers in Pune and Hadapsar</b>, we provide tailored catering services in Pune and PCMC. From wedding, birthday parties to corporate events catering, our passion for flavor and flawless execution makes us a trusted name . For the best in caterering Pune, choose <b> Trimurti !!!</b> </p>
         </div>
 
         <div>
