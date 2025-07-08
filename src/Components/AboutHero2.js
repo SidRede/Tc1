@@ -7,27 +7,27 @@ const AboutHero2 = () => {
     <div className={styles.aboutHero2}>
       <div className={styles.experience}>
         <div className={styles.box1}>
-          <h1>20+</h1>
+          <h2>20+</h2>
           <h4>Years of Serving</h4>
         </div>
 
         <div className={styles.box1}>
-          <h1>2M+</h1>
+          <h2>2M+</h2>
           <h4>People Fed</h4>
         </div>
 
         <div className={styles.box1}>
-          <h1>50K+</h1>
+          <h2>50K+</h2>
           <h4>Clients</h4>
         </div>
 
         <div className={styles.box1}>
-          <h1>90+%</h1>
+          <h2>90+%</h2>
           <h4>Repeated Clients</h4>
         </div>
 
         <div className={styles.box1}>
-          <h1>1000+</h1>
+          <h2>1000+</h2>
           <h4>Dishes</h4>
         </div>
       </div>
@@ -48,7 +48,7 @@ const AboutHero2 = () => {
             <h3>
               Meet our <span style={{ color: "#EE4E4E" }}>Founder</span>
             </h3>
-            <h1>Sachin Deshmukh</h1>
+            <h2>Sachin Deshmukh</h2>
             {/* Optional bio:
             <p>Lorem ipsum dolor sit amet consectetur...</p>
             */}

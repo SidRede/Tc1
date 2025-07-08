@@ -63,11 +63,11 @@ export default function Services() {
       </Head>
 
       <main className="container py-5">
-        <h1 className="mb-4 fw-bold text-center"  style={{
+        <h2 className="mb-4 fw-bold text-center"  style={{
     fontFamily: '"Great Vibes", cursive',
     fontWeight: 400,
     fontStyle: 'normal',
-  }}>Our Catering Services</h1>
+  }}>Our Catering Services</h2>
 
         <p className="lead text-center"  style={{
     fontFamily: '"Poppins"',
