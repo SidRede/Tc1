@@ -37,7 +37,7 @@ const HomeHero1 = () => {
 
         <Image
           className={styles.chineseDish}
-          src="/Images/chineseDish.png"
+          src="/Images/plate11.jpg"
           alt="Chinese dish for a catering Event"
           width={500}
           height={500}

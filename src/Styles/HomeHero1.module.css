@@ -17,6 +17,11 @@
   max-width: 100%;
 }
 
+.chineseDish{
+  rotate: 30deg;
+
+}
+
 .MainText {
   flex: 1;
   min-width: 250px;
@@ -26,7 +31,7 @@
 .discover {
   color: #fff;
   font-family: "Great Vibes", cursive;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .tc {
@@ -41,6 +46,7 @@
   color: #D19B38;
   font-family: "Kings", cursive;
   letter-spacing: 1px;
+   font-size: 15px;
 }
 
 .lines {
@@ -115,6 +121,7 @@
   }
   
   .chineseDish {
+    rotate: 270deg;
     width: 40vw;
   }
 

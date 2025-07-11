@@ -35,7 +35,7 @@ export default function Services() {
     },
     {
       title: "Birthday Parties",
-      img:  "/Images/gallery/img13.jpg",
+      img:  "/Images/img15.jpg",
       desc:
         "From kids to adults, we offer fun, themed birthday catering with mocktails, snack boxes, mini pizzas, cupcakes, and chocolate fountains — fully personalized to your celebration. Recognized as the top birthday party caterers in Pune and Hadapsar.",
     },

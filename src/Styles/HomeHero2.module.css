@@ -6,7 +6,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    /* gap: 20px; */
   }
   
   .Img1 {
@@ -20,9 +20,11 @@
   .rect1 {
     width: auto;
     height: 40vh;
+    overflow: hidden;
   }
   
   .frameContainer {
+    width: 40vw;
     position: relative;
     display: flex;
     justify-content: center;
@@ -33,7 +35,8 @@
   .frame {
     padding: 10px;
     border: 5px solid black;
-    width: 28vw;
+    border-radius: 5%;
+    width: 40vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,25 +45,13 @@
     z-index: 2;
   }
   
-  .datta {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 80vh;  /* Adjusted for full screen */
-    width: 100%;
-    object-fit: cover;
-    opacity: 0.7; /* Adjust opacity for visibility */
-    z-index: 10;
-  }
+
   
   .frame h3 {
     margin-top: 5vh;
     font-size: 27px;
     letter-spacing: 7px;
-    font-family: "Metal Mania", system-ui;
-    font-weight: 400;
-    color: #6D3A3A;
-    z-index: 2;
+   
   }
   
   .frame p {
@@ -112,6 +103,8 @@
     }
   
     .frame p {
+        
+      
       font-size: 14px;
       padding: 10px;
     }
