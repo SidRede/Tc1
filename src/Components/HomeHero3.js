@@ -13,7 +13,7 @@ const HomeHero3 = () => {
 
  const reviews = [
     {
-      name: 'Siddheshwar Rede',
+      name: 'Sopan Rede',
       city: 'Hadapsar',
       image: '/Images/review1.jpeg',
       review:

@@ -16,9 +16,7 @@ const AboutHero1 = () => {
         />
 
         <div className={styles.overlayText}>
-          <div className={styles.quality}>
-            <h2>QUALITY | SERVICE | RELIABILITY</h2>
-          </div>
+          
           <div className={styles.tc1}>
             <h1 style={{ color: "#6D3A3A" }}>TRIMURTI CATERERS</h1>
           </div>

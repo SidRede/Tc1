@@ -78,7 +78,7 @@ export default function BirthdayPartyMenu() {
 
         <h2 className="mt-5">🎈 Kids&rsquo;s Party Menu Ideas</h2>
          <Image
-          src="/Images/gallery/img2.jpg"
+          src="/Images/img15.jpg"
           alt="Birthday Party Catering Setup"
           className="img-fluid rounded shadow mb-4"
           width={200}
