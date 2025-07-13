@@ -2,6 +2,7 @@ import './globals.css';
 import Navbar from '../Components/Navbar'; // adjust if path differs
 import Footer from '../Components/Footer'; // ✅ import Footer
 import Script from 'next/script';
+import { Analytics } from '@vercel/analytics/next';
 // app/layout.js
 export const metadata = {
   title: 'Trimurti Caterers | Best Event Catering in Pune & PCMC',
@@ -171,6 +172,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         {children}
+         <Analytics />
         <Footer /> {/* ✅ Footer at bottom of every page */}
 
           <Script
