@@ -15,42 +15,42 @@ const HomeHero3 = () => {
     {
       name: 'Sopan Rede',
       city: 'Hadapsar',
-      image: '/Images/review1.jpeg',
+      image: '/images/review1.jpeg',
       review:
         "Our wedding day was made truly special thanks to the incredible team at Trimurti Caterers. Every dish was full of flavor, and their attention to detail stood out. They really are the best caterers in Hadapsar with a strong reputation.",
     },
     {
       name: 'Amit Verma',
       city: 'Pune',
-      image: '/Images/profile.png',
+      image: '/images/profile.png',
       review:
         "From start to finish, Trimurti Caterers impressed us with their dedication and top-notch service. We hosted a birthday party and everything went smoothly. For anyone searching for the top caterers in Pune, this is the team you need.",
     },
     {
       name: 'Sneha Kulkarni',
       city: 'Katraj',
-      image: '/Images/profile.png',
+      image: '/images/profile.png',
       review:
         "We were planning a family function and Trimurti Caterers handled it with such professionalism. Their team brought life to the event with their service and the food was beyond amazing. Highly recommended for catering services in Pune and PCMC.",
     },
     {
       name: 'Rahul Mehta',
       city: 'Pimpri',
-      image: '/Images/profile.png',
+      image: '/images/profile.png',
       review:
         "At our corporate gathering, Trimurti Caterers delivered a seamless and classy experience. Everything from presentation to taste was excellent. If you're looking for reliable corporate catering in Pune, look no further.",
     },
     {
       name: 'Anjali Patil',
       city: 'Hadapsar',
-      image: '/Images/profile.png',
+      image: '/images/profile.png',
       review:
         "Trimurti Caterers turned our wedding reception into a memorable celebration. The buffet was beautifully arranged, and every guest was impressed. They bring the essence of professional wedding catering in Pune with elegance and efficiency.",
     },
     {
       name: 'Suresh Nair',
       city: 'Pune',
-      image: '/Images/profile.png',
+      image: '/images/profile.png',
       review:
         "Our experience with Trimurti Caterers was exceptional. From planning to execution, their team was spot-on. They're not just caterers, they're event experts. For buffet catering and event catering in Pune, they are unmatched.",
     },
@@ -100,7 +100,7 @@ const HomeHero3 = () => {
         <h3>Testimonials</h3>
         <Image
             className={styles.lines}
-            src="/Images/Group84.png"
+            src="/images/Group84.png"
             alt="Separator lines"
             width={400}
             height={20}

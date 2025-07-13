@@ -6,7 +6,7 @@ export default function BirthdayPartyMenu() {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "headline": "How to Plan the Perfect Birthday Party Menu for All Ages",
-    "image": "https://trimurticaterers.com/Images/gallery/img2.jpg",
+    "image": "https://trimurticaterers.com/images/gallery/img2.jpg",
     "author": {
       "@type": "Organization",
       "name": "Trimurti Caterers",
@@ -78,7 +78,7 @@ export default function BirthdayPartyMenu() {
 
         <h2 className="mt-5">🎈 Kids&rsquo;s Party Menu Ideas</h2>
          <Image
-          src="/Images/img15.jpg"
+          src="/images/img15.jpg"
           alt="Birthday Party Catering Setup"
           className="img-fluid rounded shadow mb-4"
           width={200}
@@ -95,7 +95,7 @@ export default function BirthdayPartyMenu() {
 
         <h2 className="mt-5">🎉 Teen Birthday Bash</h2>
         <Image
-          src="/Images/gallery/img8.jpg"
+          src="/images/gallery/img8.jpg"
           alt="Teen Birthday Catering"
           className="img-fluid rounded shadow my-3"
           width={200}
@@ -112,7 +112,7 @@ export default function BirthdayPartyMenu() {
 
         <h2 className="mt-5">🥂 Adult Birthday Celebrations</h2>
         <Image
-          src="/Images/gallery/img5.jpg"
+          src="/images/gallery/img5.jpg"
           alt="Elegant Adult Birthday Dinner"
           className="img-fluid rounded shadow my-3"
            width={200}

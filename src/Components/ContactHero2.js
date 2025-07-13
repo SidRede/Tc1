@@ -50,7 +50,7 @@ const ContactHero2 = () => {
       <div className={style['contact-form']}>
         <div className={style['contact-image']}>
          <Image
-            src="/Images/contactUs.png"
+            src="/images/contactUs.png"
             alt="Contact Us"
             width={200} // Adjust width as needed
             height={100} // Adjust height as needed

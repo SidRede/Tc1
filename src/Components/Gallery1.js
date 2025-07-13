@@ -4,18 +4,18 @@ import Image from "next/image";
 import Head from "next/head";
 
 const images = [
-  "/Images/gallery/img1.jpg",
-  "/Images/gallery/img2.jpg",
-  "/Images/gallery/img3.jpg",
-  "/Images/gallery/img4.jpg",
-  "/Images/gallery/img5.jpg",
-  "/Images/gallery/img6.jpg",
-  "/Images/gallery/img7.jpg",
-  "/Images/gallery/img8.jpg",
-  "/Images/gallery/img9.jpg",
-  "/Images/gallery/img10.jpg",
-  "/Images/gallery/img11.jpg",
-  "/Images/gallery/img12.jpg",
+  "/images/gallery/img1.jpg",
+  "/images/gallery/img2.jpg",
+  "/images/gallery/img3.jpg",
+  "/images/gallery/img4.jpg",
+  "/images/gallery/img5.jpg",
+  "/images/gallery/img6.jpg",
+  "/images/gallery/img7.jpg",
+  "/images/gallery/img8.jpg",
+  "/images/gallery/img9.jpg",
+  "/images/gallery/img10.jpg",
+  "/images/gallery/img11.jpg",
+  "/images/gallery/img12.jpg",
 ];
 
 export default function Gallery() {

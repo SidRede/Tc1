@@ -23,7 +23,7 @@ export default function EventsPage() {
 
   return (
     <div className="container py-5">
-      <h1 className="text-center mb-5">All VIP Guests Images</h1>
+      <h1 className="text-center mb-5">All VIP Guests images</h1>
       <div className="row">
         {images}
       </div>

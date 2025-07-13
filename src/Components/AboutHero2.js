@@ -36,7 +36,7 @@ const AboutHero2 = () => {
         <div className={styles.founderInfo}>
           <div className={styles.founderImage}>
               <Image
-                src="/Images/founder.png"
+                src="/images/founder.png"
                 alt="Founder of Trimurti Caterers"
                 width={300} // Adjust based on actual image dimensions
                 height={300}

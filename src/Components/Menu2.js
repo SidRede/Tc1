@@ -7,7 +7,7 @@ const MenuHero2 = () => {
     <div>
       <div className={styles.Img12}>
         <Image
-          src="/Images/Menu1.png"
+          src="/images/Menu1.png"
           alt=""
           className={styles.menuImg}
           style={{ animationDelay: '0s' }}
@@ -15,7 +15,7 @@ const MenuHero2 = () => {
           height={300}
         />
         <Image
-          src="/Images/Menu2.png"
+          src="/images/Menu2.png"
           alt=""
           className={styles.menuImg}
           style={{ animationDelay: '0.2s' }}
@@ -23,7 +23,7 @@ const MenuHero2 = () => {
           height={300}
         />
         <Image
-          src="/Images/Menu3.png"
+          src="/images/Menu3.png"
           alt=""
           className={styles.menuImg}
           style={{ animationDelay: '0.4s' }}
@@ -34,14 +34,14 @@ const MenuHero2 = () => {
 
       <div className={styles.Img22}>
         <Image
-          src="/Images/Menu4.png"
+          src="/images/Menu4.png"
           alt=""
           className={styles.menuImg}
           width={300}
           height={300}
         />
         <Image
-          src="/Images/Menu5.png"
+          src="/images/Menu5.png"
           alt=""
           className={styles.menuImg}
           width={300}

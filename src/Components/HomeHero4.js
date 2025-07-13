@@ -29,19 +29,19 @@ export default function Services() {
   const services = [
     {
       title: "Wedding Catering",
-      img: "/Images/gallery/img5.jpg",
+      img: "/images/gallery/img5.jpg",
       desc:
         "Make your special day memorable with our royal wedding menus, live counters, dessert bars, and traditional thalis. From intimate to grand-scale weddings, we craft unforgettable food experiences. Trusted by many for wedding catering in Pune and surrounding areas.",
     },
     {
       title: "Birthday Parties",
-      img:  "/Images/img15.jpg",
+      img:  "/images/img15.jpg",
       desc:
         "From kids to adults, we offer fun, themed birthday catering with mocktails, snack boxes, mini pizzas, cupcakes, and chocolate fountains — fully personalized to your celebration. Recognized as the top birthday party caterers in Pune and Hadapsar.",
     },
     {
       title: "Corporate Events",
-      img: "/Images/gallery/img14.jpg",
+      img: "/images/gallery/img14.jpg",
       desc:
         "Impress your clients and staff with professional catering for seminars, product launches, and office parties. We serve elegant buffets, live counters, and hygienic meal boxes. Choose Trimurti Caterers for the best corporate catering in Pune and PCMC.",
     },

@@ -17,7 +17,7 @@ const Menu1 = () => {
 
         <div className={styles.thali}>
           <Image
-            src="/Images/thali.png"
+            src="/images/thali.png"
             alt="Thali"
             className={styles.thali}
             width={400}
@@ -27,7 +27,7 @@ const Menu1 = () => {
 
         <div className={styles.ellipse}>
           <Image
-            src="/Images/ellipse.png"
+            src="/images/ellipse.png"
             alt="ellipse"
             className={styles.ellipse}
             width={300}
@@ -37,7 +37,7 @@ const Menu1 = () => {
 
         <div className={styles.ellipse1}>
           <Image
-            src="/Images/ellipse1.png"
+            src="/images/ellipse1.png"
             alt="ellipse1"
             className={styles.ellipse1}
             width={250}
@@ -47,7 +47,7 @@ const Menu1 = () => {
 
         <div className={styles.ellipse2}>
           <Image
-            src="/Images/ellipse1.png"
+            src="/images/ellipse1.png"
             alt="ellipse2"
             className={styles.ellipse2}
             width={250}

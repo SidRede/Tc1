@@ -14,7 +14,7 @@ const ContactHero1 = () => {
           <a href="tel:+919697982020">
             <div className={styles.box}>
               <Image
-                src="/Images/call1.png"
+                src="/images/call1.png"
                 alt="Call Icon"
                 width={24} // Adjust based on actual icon size
                 height={24}
@@ -31,7 +31,7 @@ const ContactHero1 = () => {
           >
             <div className={styles.box}>
               <Image
-                src="/Images/insta1.png"
+                src="/images/insta1.png"
                 alt="Instagram"
                 width={24} // Adjust based on actual size or design
                 height={24}
@@ -44,7 +44,7 @@ const ContactHero1 = () => {
           <a href="https://wa.me/919697982020" target="_blank" rel="noopener noreferrer">
             <div className={styles.box}>
               <Image
-                src="/Images/whatsApp1.png"
+                src="/images/whatsApp1.png"
                 alt="WhatsApp Icon"
                 width={24} // Adjust as needed
                 height={24}

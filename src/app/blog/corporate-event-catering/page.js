@@ -5,7 +5,7 @@ export default function CorporateEventCatering() {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "headline": "Corporate Event Catering: 5 Ways to Impress Clients and Employees",
-    "image": "https://trimurticaterers.com/Images/gallery/img3.jpg", // Replace with actual image URL
+    "image": "https://trimurticaterers.com/images/gallery/img3.jpg", // Replace with actual image URL
     "author": {
       "@type": "Organization",
       "name": "Trimurti Caterers",
@@ -83,7 +83,7 @@ export default function CorporateEventCatering() {
 
         <div className="my-4">
             <img
-            src="https://trimurticaterers.com/Images/gallery/img2.jpg"
+            src="https://trimurticaterers.com/images/gallery/img2.jpg"
             alt="Corporate catering table setup"
             className="img-fluid rounded shadow"
             width={200}
@@ -99,7 +99,7 @@ export default function CorporateEventCatering() {
 
         <div className="my-4">
             <img
-            src="https://trimurticaterers.com/Images/gallery/img8.jpg"
+            src="https://trimurticaterers.com/images/gallery/img8.jpg"
             alt="Office catering buffet line"
             className="img-fluid rounded shadow"
 
@@ -126,7 +126,7 @@ export default function CorporateEventCatering() {
 
         <div className="my-4">
             <img
-            src="https://trimurticaterers.com/Images/gallery/img9.jpg"
+            src="https://trimurticaterers.com/images/gallery/img9.jpg"
             alt="Client meeting lunch setup"
             className="img-fluid rounded shadow"
             width={200}

@@ -8,7 +8,7 @@ const HomeHero1 = () => {
       <section className={styles.hero}>
         <Image
           className={styles.fire}
-          src="/Images/blackFire.png"
+          src="/images/blackFire.png"
           alt="Fire decoration"
           width={100}
           height={100}
@@ -23,7 +23,7 @@ const HomeHero1 = () => {
 
           <Image
             className={styles.lines}
-            src="/Images/Group84.png"
+            src="/images/Group84.png"
             alt="Separator lines"
             width={500}
             height={40}
@@ -37,7 +37,7 @@ const HomeHero1 = () => {
 
         <Image
           className={styles.chineseDish}
-          src="/Images/plate1.jpg"
+          src="/images/plate1.jpg"
           alt="Chinese dish for a catering Event"
           width={500}
           height={500}
@@ -46,28 +46,28 @@ const HomeHero1 = () => {
         <div className={styles.blurWrapper}>
           <Image
             className={styles.blurr1}
-            src="/Images/layerBlur1.png"
+            src="/images/layerBlur1.png"
             alt="blur"
             width={362}
             height={459}
           />
          { /*<Image
             className={styles.blurr2}
-            src="/Images/LayerBlur2.png"
+            src="/images/LayerBlur2.png"
             alt="blur"
             width={242}
             height={276}
           />*/}
           <Image
             className={styles.blurr3}
-            src="/Images/LayerBlur3.png"
+            src="/images/LayerBlur3.png"
             alt="blur"
             width={480}
             height={372}
           />
           <Image
             className={styles.blurr4}
-            src="/Images/LayerBlur4.png"
+            src="/images/LayerBlur4.png"
             alt="blur"
             width={403}
             height={332}

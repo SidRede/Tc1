@@ -7,14 +7,14 @@ const HomeHero2 = () => {
     <div className={styles.hero2}>
       <div className={styles.Img1}>
         <Image
-          src="/Images/Rectangle1.png"
+          src="/images/Rectangle1.png"
           alt="Trimurti Caterers Service in Event, Pune"
           className={styles.rect1}
           width={300}
           height={300}
         />
         <Image
-          src="/Images/Rectangle2.png"
+          src="/images/Rectangle2.png"
           alt="Top caterers in Pune"
           className={styles.rect1}
           width={300}
@@ -34,14 +34,14 @@ const HomeHero2 = () => {
 
       <div className={styles.Img1}>
         <Image
-          src="/Images/Rectangle3.png"
+          src="/images/Rectangle3.png"
           alt="Affordable wedding caterers in Pune"
           className={styles.rect1}
           width={300}
           height={300}
         />
         <Image
-          src="/Images/Rectangle4.png"
+          src="/images/Rectangle4.png"
           alt="Catering for parties and corporate events in Pune"
           className={styles.rect1}
           width={300}

@@ -14,7 +14,7 @@ const Footer = () => {
           </div>
           <div className={styles.mail}>
             <Image
-              src="/Images/email.png"
+              src="/images/email.png"
               alt="email icon"
               width={24}
               height={24}
@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
           <div className={styles.call}>
             <Image
-              src="/Images/call.png"
+              src="/images/call.png"
               alt="call icon"
               width={24}
               height={24}
@@ -34,7 +34,7 @@ const Footer = () => {
           </div>
           <div className={styles.site}>
             <Image
-              src="/Images/web.png"
+              src="/images/web.png"
               alt="website icon"
               width={24}
               height={24}
@@ -79,7 +79,7 @@ const Footer = () => {
 
       <div className={styles.gold}>
         <Image
-          src="/Images/sideGold.png"
+          src="/images/sideGold.png"
           alt="Decorative Gold Element"
           width={100} // Adjust as per your layout
           height={100}
@@ -88,7 +88,7 @@ const Footer = () => {
       </div>
         <div className={styles.gold1}>
         <Image
-          src="/Images/sideGold.png"
+          src="/images/sideGold.png"
           alt="Decorative Gold Element"
           width={100}
           height={100}

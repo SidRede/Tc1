@@ -76,7 +76,7 @@ export default function IndianWeddingCatering() {
 
         <div className="my-4">
           <img
-            src="https://trimurticaterers.com/Images/gallery/img1.jpg"
+            src="https://trimurticaterers.com/images/gallery/img1.jpg"
             alt="Indian wedding catering buffet"
             className="img-fluid rounded shadow"
             width={200}

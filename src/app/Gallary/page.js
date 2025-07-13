@@ -4,14 +4,14 @@ import Link from 'next/link';
 import Styles from './Gallary.module.css'; // Adjust path if needed
 
 
-const renderImages = (category, count) => {
+const renderimages = (category, count) => {
   const images = [];
   for (let i = 1; i <= count; i++) {
     images.push(
       <div className="col-md-4 mb-4" key={i}>
         <div className="card h-100">
          <Image
-            src={`/Images/${category}/${i}.jpg`}
+            src={`/images/${category}/${i}.jpg`}
             alt={`${category} ${i}`}
             width={500}
             height={300}
@@ -35,7 +35,7 @@ export default function GalleryPage() {
       <section className="mb-5">
         <h2 className="mb-4">Events</h2>
         <div className="row">
-          {renderImages('events', 6)}
+          {renderimages('events', 6)}
         </div>
         <div className="text-center">
           <Link href="/Gallary/Events">
@@ -48,7 +48,7 @@ export default function GalleryPage() {
       <section className="mb-5">
         <h2 className="mb-4">Food Items</h2>
         <div className="row">
-          {renderImages('food', 6)}
+          {renderimages('food', 6)}
         </div>
         <div className="text-center">
           <Link href="/Gallary/Food">
@@ -61,7 +61,7 @@ export default function GalleryPage() {
       <section>
         <h2 className="mb-4">VIP Guests</h2>
         <div className="row">
-          {renderImages('vip', 6)}
+          {renderimages('vip', 6)}
         </div>
         <div className="text-center">
           <Link href="/Gallary/VIP-guests">

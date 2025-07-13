@@ -11,7 +11,7 @@ const AboutHero1 = () => {
         width={1024}
         height={297}
           className={styles.largeImage}
-          src="/Images/image-large.jpg"
+          src="/images/image-large.jpg"
           alt="Background"
         />
 
@@ -43,7 +43,7 @@ const AboutHero1 = () => {
       <div className={styles.smallscreenBg}>
         <Image
           className={styles.smallImage}
-          src="/Images/Image-small.png"
+          src="/images/Image-small.png"
           alt="Background"
           width={300} // adjust based on actual size
           height={200} // adjust based on actual size
@@ -68,10 +68,10 @@ const AboutHero1 = () => {
 
         <div className={styles.blurWrapper}>
          <div className={styles.blurWrapper}>
-          <Image className={styles.blurr1} src="/Images/layerBlur1.png" alt="blur" width={362} height={459} />
-          <Image className={styles.blurr2} src="/Images/LayerBlur2.png" alt="blur" width={242} height={276} />
-          <Image className={styles.blurr3} src="/Images/LayerBlur3.png" alt="blur" width={480} height={372} />
-          <Image className={styles.blurr4} src="/Images/LayerBlur4.png" alt="blur" width={403} height={332} />
+          <Image className={styles.blurr1} src="/images/layerBlur1.png" alt="blur" width={362} height={459} />
+          <Image className={styles.blurr2} src="/images/LayerBlur2.png" alt="blur" width={242} height={276} />
+          <Image className={styles.blurr3} src="/images/LayerBlur3.png" alt="blur" width={480} height={372} />
+          <Image className={styles.blurr4} src="/images/LayerBlur4.png" alt="blur" width={403} height={332} />
          </div>
 
         </div>
