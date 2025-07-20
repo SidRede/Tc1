@@ -114,6 +114,8 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: 10vh;
+    min-height:fit-content;
   }
 
   .fire{
@@ -122,8 +124,9 @@
   
   .chineseDish {
     rotate: 270deg;
-    width: 40vw;
+    width: 70vw;
   }
+  
 
   .tc {
     font-size: 40px;
@@ -139,6 +142,10 @@
 
   .address {
     font-size: 14px;
+  }
+
+  .whatsappHelpButton{
+    margin-bottom: 15px;
   }
 }
 
@@ -179,6 +186,7 @@
   .whatsapp-help-button {
     font-size: 14px;
     padding: 8px 14px;
+    margin-bottom: 15px;
   }
 }
  

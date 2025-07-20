@@ -43,7 +43,7 @@ const HomeHero1 = () => {
           height={500}
         />
 
-        <div className={styles.blurWrapper}>
+        {/* <div className={styles.blurWrapper}>
           <Image
             className={styles.blurr1}
             src="/images/layerBlur1.png"
@@ -51,13 +51,7 @@ const HomeHero1 = () => {
             width={362}
             height={459}
           />
-         { /*<Image
-            className={styles.blurr2}
-            src="/images/LayerBlur2.png"
-            alt="blur"
-            width={242}
-            height={276}
-          />*/}
+         
           <Image
             className={styles.blurr3}
             src="/images/LayerBlur3.png"
@@ -72,7 +66,7 @@ const HomeHero1 = () => {
             width={403}
             height={332}
           />
-        </div>
+        </div> */}
       </section>
 
       <div className={styles.whatsappHelpButton}>
