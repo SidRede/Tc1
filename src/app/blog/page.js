@@ -8,7 +8,7 @@ const blogs = [
     excerpt:
       "Explore Indian wedding catering ideas like live counters, thali-style services, and dessert bars. Make your wedding feast unforgettable!",
     date: "June 25, 2025",
-    image: "/images/gallery/img13.jpg",
+    image: "/images/wedding.jpg",
   },
   {
     slug: "birthday-party-menu",
@@ -16,7 +16,7 @@ const blogs = [
     excerpt:
       "From snack boxes to mocktail bars, design birthday menus for kids, teens, and adults with Trimurti Caterers.",
     date: "June 20, 2025",
-    image: "/images/gallery/img5.jpg",
+    image: "/images/vip/20.jpg",
   },
   {
     slug: "corporate-event-catering",

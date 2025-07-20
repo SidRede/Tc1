@@ -29,13 +29,13 @@ export default function Services() {
   const services = [
     {
       title: "Wedding Catering",
-      img: "/images/gallery/img5.jpg",
+      img: "/images/wedding.jpg",
       desc:
         "Make your special day memorable with our royal wedding menus, live counters, dessert bars, and traditional thalis. From intimate to grand-scale weddings, we craft unforgettable food experiences. Trusted by many for wedding catering in Pune and surrounding areas.",
     },
     {
       title: "Birthday Parties",
-      img:  "/images/img15.jpg",
+      img:  "/images/vip/20.jpg",
       desc:
         "From kids to adults, we offer fun, themed birthday catering with mocktails, snack boxes, mini pizzas, cupcakes, and chocolate fountains — fully personalized to your celebration. Recognized as the top birthday party caterers in Pune and Hadapsar.",
     },

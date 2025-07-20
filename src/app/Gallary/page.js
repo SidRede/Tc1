@@ -58,7 +58,7 @@ export default function GalleryPage() {
       </section>
 
       {/* VIP Guests */}
-      <section>
+      {/* <section>
         <h2 className="mb-4">VIP Guests</h2>
         <div className="row">
           {renderimages('vip', 6)}
@@ -68,7 +68,7 @@ export default function GalleryPage() {
             <button className="btn btn-dark">View More VIP Guests</button>
           </Link>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

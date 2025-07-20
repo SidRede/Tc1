@@ -73,7 +73,7 @@ const Footer = () => {
           <p>© TRIMURTI CATERERS 2025 All Rights Reserved</p>
         </div>
         <div className={styles.credit}>
-          <p>Designed and Developed By Siddheshwar Rede</p>
+          <p>Designed and Developed By Siddheshwar Rede(7030308284)</p>
         </div>
       </div>
 

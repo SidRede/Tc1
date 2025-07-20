@@ -32,7 +32,7 @@ const AboutHero2 = () => {
         </div>
       </div>
 
-      <div>
+      {/* <div>
         <div className={styles.founderInfo}>
           <div className={styles.founderImage}>
               <Image
@@ -51,16 +51,12 @@ const AboutHero2 = () => {
             <h2>Sachin Deshmukh</h2>
             {/* Optional bio:
             <p>Lorem ipsum dolor sit amet consectetur...</p>
-            */}
+           
           </div>
         </div>
 
-        {/* 
-        <div className={styles.news}>
-          News Paper Cuttings
-        </div> 
-        */}
-      </div>
+        
+      </div> */}
     </div>
   );
 };
