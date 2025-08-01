@@ -2,7 +2,7 @@ import './globals.css';
 import Navbar from '../Components/Navbar'; // adjust if path differs
 import Footer from '../Components/Footer'; // ✅ import Footer
 import Script from 'next/script';
-import LayoutWrapper from '../components/LayoutWrapper'
+import LayoutWrapper from '../Components/LayoutWrapper'
 import { Analytics } from '@vercel/analytics/next';
 // app/layout.js
 export const metadata = {
