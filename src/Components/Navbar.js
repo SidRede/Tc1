@@ -39,6 +39,7 @@ const Navbar = () => {
         <Link href="/blog" onClick={closeNavbar}>Blogs</Link>
         <Link href="/Gallary/VIP-guests" onClick={closeNavbar}>VIP Guests</Link>
         <Link href="/Contact" onClick={closeNavbar}>Contact Us</Link>
+        
       </div>
 
       <div className={styles.hamburger} onClick={toggleNavbar}>

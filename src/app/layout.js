@@ -2,6 +2,7 @@ import './globals.css';
 import Navbar from '../Components/Navbar'; // adjust if path differs
 import Footer from '../Components/Footer'; // ✅ import Footer
 import Script from 'next/script';
+import LayoutWrapper from '../components/LayoutWrapper'
 import { Analytics } from '@vercel/analytics/next';
 // app/layout.js
 export const metadata = {
@@ -172,18 +173,11 @@ export default function RootLayout({ children }) {
 
 
       </head>
-      <body>
-        <Navbar />
-        {children}
-         <Analytics />
-        <Footer /> {/* ✅ Footer at bottom of every page */}
-
-          <Script
-          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+         <body>
+        <LayoutWrapper>
+          {children}
+        </LayoutWrapper>
+        <Analytics />
       </body>
     </html>
   );
