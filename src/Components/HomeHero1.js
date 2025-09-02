@@ -71,7 +71,7 @@ const HomeHero1 = () => {
 
       <div className={styles.whatsappHelpButton}>
         <a
-          href="https://wa.me/917030308284?text=Hi%2C%20I'm%20interested%20in%20your%20catering%20services.%20Can%20you%20help%20me%3F"
+          href="https://wa.me/919697982020?text=Hi%2C%20I'm%20interested%20in%20your%20catering%20services.%20Can%20you%20help%20me%3F"
           target="_blank"
           rel="noopener noreferrer"
         >
